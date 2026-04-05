@@ -1,5 +1,5 @@
 # ==========================================
-# FIVEM TOOLS CONFIGURATION FILE
+# 🚗 FIVEM TOOLS CONFIGURATION FILE
 # ==========================================
 
 # --- EXECUTION MODES ---
@@ -9,7 +9,8 @@ DEFAULT_MODULE = 1
 
 # --- DEVELOPER AUTO-TESTING ---
 # AUTO_TEST: Creates a timestamped folder and runs a batch test of specified modules.
-AUTO_TEST = True
+# Set this to False for public/normal use.
+AUTO_TEST = False
 # Which modules to test? (1=Spawn Codes, 2=SQL, 3=Duplicates, 4=vMenu)
 TEST_MODULES = [1, 2, 3, 4]
 
